@@ -1,0 +1,28 @@
+.CalltoAction_wrapper{
+    padding: 140px 8% !important;
+    background: url('./../../assets/Landscape.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 12px;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.CalltoAction_wrapper::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 10%, rgba(0, 0, 0, 0) 50%);
+    z-index: -1;
+    border-radius: 12px;
+}
+
+.CalltoAction_wrapper h2{
+    font-size: 38px;
+    line-height: 50px;
+}

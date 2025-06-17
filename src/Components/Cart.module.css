@@ -1,0 +1,142 @@
+.cartWrapper {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  max-width: 700px;
+  margin: 40px auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.cartWrapper h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+.noBookings {
+  text-align: center;
+  color: #777;
+}
+
+.bookingList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bookingCard {
+  background: white;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.1s ease;
+  cursor: pointer;
+}
+
+.bookingCard:hover {
+  transform: scale(1.01);
+}
+
+.bookingDetails {
+  flex: 1;
+}
+
+.bookingTitle {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.bookingDetails p {
+  margin: 4px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.bookedButton {
+  background-color: #28a745;
+  color: white;
+}
+
+.bookedButton:hover {
+  background-color: #218838;
+}
+
+.removeButton {
+  background-color: #dc3545;
+  color: white;
+}
+
+.removeButton:hover {
+  background-color: #c82333;
+}
+
+.dialogOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialogContent {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.dialogContent img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.dialogContent button {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dialogContent button:hover {
+  background-color: #ff1a1a;
+}
+
+.notification {
+  margin-top: 20px;
+  background-color: #d1e7dd;
+  color: #0f5132;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
